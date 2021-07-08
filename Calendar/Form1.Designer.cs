@@ -33,16 +33,24 @@
             this.engToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.русToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.укрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.backgroundToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bGCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bGSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bGNotesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bGPanelWithInstrumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.languageToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(9, 9);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(79, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,17 +82,66 @@
             this.укрToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.укрToolStripMenuItem.Text = "Укр";
             // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.backgroundToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(9, 33);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(91, 24);
+            this.menuStrip2.TabIndex = 1;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // backgroundToolStripMenuItem
+            // 
+            this.backgroundToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bGCalendarToolStripMenuItem,
+            this.bGSearchToolStripMenuItem,
+            this.bGNotesToolStripMenuItem,
+            this.bGPanelWithInstrumentToolStripMenuItem});
+            this.backgroundToolStripMenuItem.Name = "backgroundToolStripMenuItem";
+            this.backgroundToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
+            this.backgroundToolStripMenuItem.Text = "Background";
+            // 
+            // bGCalendarToolStripMenuItem
+            // 
+            this.bGCalendarToolStripMenuItem.Name = "bGCalendarToolStripMenuItem";
+            this.bGCalendarToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.bGCalendarToolStripMenuItem.Text = "BG calendar";
+            // 
+            // bGSearchToolStripMenuItem
+            // 
+            this.bGSearchToolStripMenuItem.Name = "bGSearchToolStripMenuItem";
+            this.bGSearchToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.bGSearchToolStripMenuItem.Text = "BG search";
+            // 
+            // bGNotesToolStripMenuItem
+            // 
+            this.bGNotesToolStripMenuItem.Name = "bGNotesToolStripMenuItem";
+            this.bGNotesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.bGNotesToolStripMenuItem.Text = "BG notes";
+            // 
+            // bGPanelWithInstrumentToolStripMenuItem
+            // 
+            this.bGPanelWithInstrumentToolStripMenuItem.Name = "bGPanelWithInstrumentToolStripMenuItem";
+            this.bGPanelWithInstrumentToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.bGPanelWithInstrumentToolStripMenuItem.Text = "BG panel with instrument";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -97,6 +154,12 @@
         private System.Windows.Forms.ToolStripMenuItem engToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem русToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem укрToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem backgroundToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bGCalendarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bGSearchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bGNotesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bGPanelWithInstrumentToolStripMenuItem;
     }
 }
 
