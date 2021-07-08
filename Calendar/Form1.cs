@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,13 @@ namespace Calendar
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Directory.CreateDirectory($"Notes\\{this.textBoxTitle.Text}");
+            File.WriteAllText($"Notes\\{this.textBoxTitle.Text}", $"{this.textBoxText.Text}.txt");
+            this.Close();
         }
     }
 }
