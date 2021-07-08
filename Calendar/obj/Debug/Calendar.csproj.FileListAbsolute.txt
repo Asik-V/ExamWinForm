@@ -7,3 +7,4 @@ C:\Users\student\source\repos\ExamWinForm\Calendar\obj\Debug\Calendar.csproj.Gen
 C:\Users\student\source\repos\ExamWinForm\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
 C:\Users\student\source\repos\ExamWinForm\Calendar\obj\Debug\Calendar.exe
 C:\Users\student\source\repos\ExamWinForm\Calendar\obj\Debug\Calendar.pdb
+C:\Users\student\source\repos\ExamWinForm\Calendar\obj\Debug\Calendar.Form1.resources
