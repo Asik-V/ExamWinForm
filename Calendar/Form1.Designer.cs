@@ -68,19 +68,19 @@
             // engToolStripMenuItem
             // 
             this.engToolStripMenuItem.Name = "engToolStripMenuItem";
-            this.engToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.engToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.engToolStripMenuItem.Text = "Eng";
             // 
             // русToolStripMenuItem
             // 
             this.русToolStripMenuItem.Name = "русToolStripMenuItem";
-            this.русToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.русToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.русToolStripMenuItem.Text = "Рус";
             // 
             // укрToolStripMenuItem
             // 
             this.укрToolStripMenuItem.Name = "укрToolStripMenuItem";
-            this.укрToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.укрToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.укрToolStripMenuItem.Text = "Укр";
             // 
             // menuStrip2
@@ -90,7 +90,7 @@
             this.backgroundToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(9, 33);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(91, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(211, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -110,28 +110,32 @@
             this.bGCalendarToolStripMenuItem.Name = "bGCalendarToolStripMenuItem";
             this.bGCalendarToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.bGCalendarToolStripMenuItem.Text = "BG calendar";
+            this.bGCalendarToolStripMenuItem.Click += new System.EventHandler(this.bGCalendarToolStripMenuItem_Click);
             // 
             // bGSearchToolStripMenuItem
             // 
             this.bGSearchToolStripMenuItem.Name = "bGSearchToolStripMenuItem";
             this.bGSearchToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.bGSearchToolStripMenuItem.Text = "BG search";
+            this.bGSearchToolStripMenuItem.Click += new System.EventHandler(this.bGSearchToolStripMenuItem_Click);
             // 
             // bGNotesToolStripMenuItem
             // 
             this.bGNotesToolStripMenuItem.Name = "bGNotesToolStripMenuItem";
             this.bGNotesToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.bGNotesToolStripMenuItem.Text = "BG notes";
+            this.bGNotesToolStripMenuItem.Click += new System.EventHandler(this.bGNotesToolStripMenuItem_Click);
             // 
             // bGPanelWithInstrumentToolStripMenuItem
             // 
             this.bGPanelWithInstrumentToolStripMenuItem.Name = "bGPanelWithInstrumentToolStripMenuItem";
             this.bGPanelWithInstrumentToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
             this.bGPanelWithInstrumentToolStripMenuItem.Text = "BG panel with instrument";
+            this.bGPanelWithInstrumentToolStripMenuItem.Click += new System.EventHandler(this.bGPanelWithInstrumentToolStripMenuItem_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(13, 60);
+            this.button1.Location = new System.Drawing.Point(23, 81);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -142,13 +146,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(120, 116);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.menuStrip2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Settings";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
