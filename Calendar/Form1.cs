@@ -22,7 +22,15 @@ namespace Calendar
         {
             Directory.CreateDirectory($"Notes\\{this.textBoxTitle.Text}");
             File.WriteAllText($"Notes\\{this.textBoxTitle.Text}", $"{this.textBoxText.Text}.txt");
+            File.WriteAllText($"Notes\\{this.textBoxTitle.Text}", $"{this.dateTimePicker1.Value}.txt");
             this.Close();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Directory.CreateDirectory($"Notes\\{this.textBoxTitle.Text}");
+            File.WriteAllText($"Notes\\{this.textBoxTitle.Text}", $"{this.textBoxText.Text}.txt");
+            File.WriteAllText($"Notes\\{this.textBoxTitle.Text}", $"{this.dateTimePicker1.Value}.txt");
         }
     }
 }
